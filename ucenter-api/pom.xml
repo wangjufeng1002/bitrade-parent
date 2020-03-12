@@ -76,6 +76,7 @@
 			<groupId>cn.ztuo.bitrade</groupId>
 			<artifactId>otc-core</artifactId>
 			<version>1.0</version>
+
 		</dependency>
 		<!-- 发送邮件. -->
 		<dependency>
@@ -103,6 +104,12 @@
 			<groupId>cn.ztuo.bitrade</groupId>
 			<artifactId>core</artifactId>
 			<version>1.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.sparkframework</groupId>
+					<artifactId>spark-core</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>

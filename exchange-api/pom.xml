@@ -53,6 +53,12 @@
             <groupId>cn.ztuo.bitrade</groupId>
             <artifactId>core</artifactId>
             <version>1.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.sparkframework</groupId>
+                    <artifactId>spark-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
